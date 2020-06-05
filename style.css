@@ -47,29 +47,40 @@ table {
 }
 *{
   box-sizing: border-box;  
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+
 }
 
 /* Add CSS styling here */
-h2 {
-    display: flex;
-    font-size: 2rem;
+body {
+	background-color: lightseagreen;
 }
-header nav {
-    border: 2px solid blue;
-   height: 6vh;
-	display: flex;
-    justify-content: space-between;
-    
+h1 {
+	font-size: 3rem;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+   border: 2px dotted black;
+   display: inline-flexbox;
+   font-size: 2rem;
+}
+
+
 }
 
  .links {
-border: 2px solid green;
+  border: 2px solid green;
   display:flex;
-  justify-content: flex-end;
-  flex-direction: row;
+  
+  
 }
 
 .links div {
-    border: 2px solid gold;
-    width: 20%;
+ border: 2px solid cornflowerblue;
+ height: 20px;
+  
 }
