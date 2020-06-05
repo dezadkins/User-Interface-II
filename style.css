@@ -2,6 +2,14 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+*{
+	box-sizing: border-box;  
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+  
+  }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,42 +53,139 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-  box-sizing: border-box;  
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
 
-}
 
 /* Add CSS styling here */
+html {
+	font-size: 62.5%;
+}
+
 body {
+	font-size: 1.6rem;
 	background-color: lightseagreen;
 }
-h1 {
-	font-size: 3rem;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
+
 h2 {
    border: 2px dotted black;
    display: inline-flexbox;
-   font-size: 2rem;
+   font-size: 2.5rem;
+} 
+ h1 {
+	font-size: 6rem;
+	border: 3px dotted black;
+
+	display:flex;
+	justify-content: center;
+} 
+header {
+	border: 3px dotted black;
+	height: 54vh; 
+	/* width:73vw; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* position: relative; */
+	/* left: 13%;
+	top: 55%; */
 }
 
-
+.mywork {
+	border: 1px solid black;
+	font-size: 2rem;
+	width: 15%;
+	text-align: center;
+	margin:2%;
 }
 
- .links {
-  border: 2px solid green;
-  display:flex;
-  
-  
+nav {
+	border: 2px solid black;
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1% auto;
+}
+.container {
+	display: flex;
+	width: 40%;
+	justify-content: space-evenly;
+	text-align: center;
 }
 
-.links div {
- border: 2px solid cornflowerblue;
- height: 20px;
-  
+h2 {
+	border: 1px solid black;
+	width: 20%;
 }
+.home {
+	border: 1px solid black;
+	width: 25%;
+}
+.projects{
+	width:25%;
+	border: 1px solid black;
+}
+.about {
+	width:25%;
+	border: 1px solid black;
+}
+.contact {
+	width:25%;
+	border: 1px solid black;
+}
+
+.projecticons1 {
+	border: 1px solid black;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	margin: 4% auto;
+	
+}
+
+.proj1 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+.proj2 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+.proj3 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+
+.projecticons2 {
+	border: 1px solid black;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	margin: 4% auto;
+	
+}
+
+.proj4 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+.proj5 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+.proj6 {
+	border: 1px solid black;
+	width:25vh;
+	height: 85%;
+}
+ 
