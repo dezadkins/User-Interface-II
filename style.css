@@ -341,13 +341,14 @@ justify-content: center;
 /* =========MEDIA QUERIES=========== */
 
 @media (max-width: 800px) {
-  .sectionicons1 {
-    display: flex;
-    flex-direction: column;
+  .topnav{
+	flex-direction: column;
+	width: 100%;
   }
-  .project-titles {
-    display: flex;
-  }
+ .logoname {
+	 display: flex;
+	 justify-content: center;
+ }
 }
 @media (max-width: 500px) {
 }
