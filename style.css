@@ -76,11 +76,14 @@ h2 {
 } 
 header {
 	/* border: 3px dotted black; */
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
 }
 nav {
-	height: 10vh;
+	/* height: 10vh; */
+	width: 50%;
 }
 .topnav {
 	/* border: 2px solid gold; */
@@ -99,31 +102,30 @@ color: black;
 	/* border: 1px solid black; */
 	display: inline;
 	position: relative;
-	top: 20px;
+	/* top: 20px; */
 	padding: 2%;
 	 
 }
-.home {
+/* .home {
 	border: 1px solid black;
-	width: 10%;
 	padding: 1%;
-	
-
 }
 .projects{
 	border: 1px solid black;
-	width: 10%;
 	padding: 1%;
 }
 .about {
 	border: 1px solid black;
-	width: 10%;
 	padding: 1%;
 }
 .contact {
 	border: 1px solid black;
-	width: 10%;
 	padding:1%;
+} */
+
+.topnav a {
+	border: 1px solid black;
+	padding: 1%;
 }
 
 h1 {
@@ -142,19 +144,15 @@ h1 {
    width:63vw;
    margin: 4% auto;
    justify-content: center;
-
-   
 } 
+
 section .mywork {
 	border: 1px solid black;
 	font-size: 2rem;
 	width: 15%;
 	text-align: center;
 	margin:2% auto;
-	
-	
 } 
-
 
 .projecticons1 {
 	/* border: 1px solid black; */
@@ -165,14 +163,12 @@ section .mywork {
 	align-content: center;
 	margin-top: 4% auto;
 	text-align: center;
-	
-	
 }
+
 img {
 	width: 100%;
 	height: 100%;
 }
-
 
 .proj1  {
 	border: 1px solid black;
@@ -265,7 +261,8 @@ footer {
   margin: 5%;
   color: black;
   display: flex;
-  justify-content: center;
+	    align-items: center;
+    flex-direction: column;
 }
 
 footer ul {
@@ -303,7 +300,7 @@ button:hover {
 .media {
 display: flex;
 justify-content: center;
-transform: translate(-53%, -50%);
+/* transform: translate(-53%, -50%); */
 }
 .fa {
   display: flex;
