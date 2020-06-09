@@ -297,7 +297,7 @@ button:hover {
 
 /* ================social media============== */
 
-.media {
+.social {
 display: flex;
 justify-content: center;
 /* transform: translate(-53%, -50%); */
@@ -339,16 +339,84 @@ justify-content: center;
 }
 
 /* =========MEDIA QUERIES=========== */
-
+/* Tablet view */
 @media (max-width: 800px) {
-  .topnav{
-	flex-direction: column;
-	width: 100%;
+  header ,.topnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   }
+  .topnav{
+	  width: 30%;
+	  margin: auto;
+  }
+  h1 {
+	font-size: 3.2rem;
+  }
+  section .mywork {
+	  display: flex;
+	  justify-content: center;
+	  width: 30%;
+  }
+  .projecticons1 {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-evenly;
+	  flex-wrap: wrap;
+	  
+	 
+	}
+	.projecticons2 {
+		display: flex;
+
+	}
+
+  
+	 
+	 
+ }
  .logoname {
 	 display: flex;
 	 justify-content: center;
+	 flex-direction: column;
  }
+ .titlename div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	}
+	.mywork {
+	display: flex;
+	justify-content: center;
+	}
+	.projecticons1{
+		display: flex;
+
+	}
 }
+
+}
+
 @media (max-width: 500px) {
+	header, .topnav, {
+		flex-direction: column;
+		
 }
+	.titlename div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	}
+	.mywork {
+	display: flex;
+	justify-content: center;
+	}
+	.logoname {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	}
+	
